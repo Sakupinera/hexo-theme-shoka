@@ -141,12 +141,12 @@ footer:
     # Change the color of icon, using Hex Code.
     color: "#ffc0cb"
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
-  count: false
+  count: true
   powered: true
 
 post:
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
-  count: false
+  count: true
 
 # Reward (Donate)
 reward:
@@ -214,7 +214,7 @@ valine:
       # - hash of investor1@email.com
 
 # bgm
-audio:
+# audio:
   # - title: 列表1
   #   list:
   #    - https://music.163.com/#/playlist?id=2943811283
@@ -222,6 +222,13 @@ audio:
   # - title: 列表2
   #   list:
   #    - https://music.163.com/#/playlist?id=2031842656
+audio:
+  - title: Soundtrack
+    list:
+      - https://music.163.com/#/playlist?id=6997503898
+  - title: あよ
+    list:
+      - https://music.163.com/#/playlist?id=2401133635
 
 # random image api
 image_server: # "https://acg.xydwz.cn/api/api.php"
@@ -276,7 +283,6 @@ baidu_site_verification:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
 baidu_push: false
-
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING `vendors` SETTINGS
